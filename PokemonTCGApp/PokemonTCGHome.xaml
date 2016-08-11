@@ -13,6 +13,9 @@
             <XmlDataProvider x:Key="pkmnCardSetsSource" XPath="PKMNSets">
                 <x:XData>
                     <PKMNSets xmlns="">
+                        <Sets Name="BW - Promo">
+                            <Folder>BWPromo</Folder>
+                        </Sets>
                         <Sets Name="Generations">
                             <Folder>Generations</Folder>
                         </Sets>
