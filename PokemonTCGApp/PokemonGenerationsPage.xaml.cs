@@ -33,23 +33,35 @@ namespace PokemonTCGApp
             InitializeComponent();
         }
 
-        //Creates grid with Pokemon cards
-        void createGrid()
-        {
-            int pkmnCardCount = 0;
-            int rowCount = imgList.Count / 5;
-            int colCount = 0;
+        public int setGridRows() {
+            int tempRowCount = imgList.Count / 5;
+            
+            if (tempRowCount <= 0) {
+                return 1;
+            }
+            else if (imgList.Count % 5 == 0){
+                return tempRowCount;
+            }
+            else{
+                return tempRowCount + 1;
+            }
+        }
 
-            if (rowCount <= 0) {
-                rowCount = 1;
+        public int setGridCols() {
+            if (imgList.Count >= 5){
+                return 4;
             }
-            if (imgList.Count >= 5)
-            {
-                colCount = 4;
+            else{
+                return imgList.Count - 1;
             }
-            else {
-                colCount = imgList.Count - 1;
-            }
+        }
+
+        //Creates grid with Pokemon cards
+        void createGrid(){
+            //Console.WriteLine(imgList.Count);
+            int pkmnCardCount = 0;
+            int rowCount = setGridRows();
+            int colCount = setGridCols();            
 
             imgGrid.HorizontalAlignment = HorizontalAlignment.Left;
             imgGrid.VerticalAlignment = VerticalAlignment.Top;
@@ -70,21 +82,37 @@ namespace PokemonTCGApp
                     rowDef.Height = new GridLength(352);
                     colDef.Width = new GridLength(255);
 
-                    //BUTTON STUFF
-                    Button btn = new Button();
-                    btn.Height = 342;
-                    btn.Width = 245;
-                    btn.Name = "PKMN_" + pkmnCardCount;
-                    btn.Tag = getTag(btn.Name);
-                    btn.Cursor = Cursors.Hand;
-                    setBtnContent(btn.Tag.ToString(), pkmnCardCount, btn);
-                    btn.Click += btn1_Click;
-                    Grid.SetColumn(btn, i);
-                    Grid.SetRow(btn, j);
+                    if (pkmnCardCount < imgList.Count)
+                    {
+                        //BUTTON STUFF
+                        Button btn = new Button();
+                        btn.Height = 342;
+                        btn.Width = 245;
+                        btn.Name = "PKMN_" + pkmnCardCount;
+                        btn.Tag = getTag(btn.Name);
+                        btn.Cursor = Cursors.Hand;
+                        Console.WriteLine(pkmnCardCount);
+                        setBtnContent(btn.Tag.ToString(), pkmnCardCount, btn);
+                        btn.Click += btn1_Click;
+                        Grid.SetColumn(btn, i);
+                        Grid.SetRow(btn, j);
 
-                    imgGrid.Children.Add(btn);
+                        //Textbox FOR TESTING PURPOSES
+                        TextBlock cardNum = new TextBlock();
+                        cardNum.FontSize = 25;
+                        //cardNum.Text = imgList[pkmnCardCount];
+                        cardNum.Text = pkmnCardCount.ToString();
+                        cardNum.FontWeight = FontWeights.Bold;
+                        cardNum.VerticalAlignment = VerticalAlignment.Top;
+                        cardNum.HorizontalAlignment = HorizontalAlignment.Left;
+                        Grid.SetColumn(cardNum, i);
+                        Grid.SetRow(cardNum, j);
 
-                    pkmnCardCount++;
+                        imgGrid.Children.Add(btn);
+                        imgGrid.Children.Add(cardNum);
+
+                        pkmnCardCount++;
+                    }
                 }
             }
 
@@ -94,6 +122,13 @@ namespace PokemonTCGApp
         //Gets tag from .settings folder when creating grid
         public string getTag(string cardName) {
             switch (folderName) {
+                case "BWPromo":
+                    foreach (SettingsProperty currProperty in Properties.BWPromo.Default.Properties){
+                        if (cardName == currProperty.Name){
+                            return Properties.BWPromo.Default[currProperty.Name].ToString();
+                        }
+                    }
+                    break;
                 case "Generations":
                     foreach (SettingsProperty currProperty in Properties.Generations.Default.Properties){
                         if (cardName == currProperty.Name){
@@ -134,6 +169,14 @@ namespace PokemonTCGApp
         //Saves tag when modified
         public void saveTag(string cardName, string cardTag) {
             switch (folderName) {
+                case "BWPromo":
+                    foreach (SettingsProperty currProperty in Properties.BWPromo.Default.Properties){
+                        if (cardName == currProperty.Name){
+                            Properties.Generations.Default[currProperty.Name] = cardTag;
+                            Properties.Generations.Default.Save();
+                        }
+                    }
+                    break;
                 case "Generations":
                     foreach (SettingsProperty currProperty in Properties.Generations.Default.Properties) {
                         if (cardName == currProperty.Name) {
@@ -162,11 +205,11 @@ namespace PokemonTCGApp
             {
                 imgList.Add(imgFiles.Name);
             }
+            Console.WriteLine(imgList.Count);
         }
 
         //Returns single img of PKMN card
-        BitmapImage getPKMNCard(int count)
-        {
+        BitmapImage getPKMNCard(int count){
             //Console.WriteLine(count);
             BitmapImage b = new BitmapImage();
             b.BeginInit();
