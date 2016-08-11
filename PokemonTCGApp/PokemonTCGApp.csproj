@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19B4C147-A41D-4892-96AF-B6B121841D42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PokemonTCGApp</RootNamespace>
+    <AssemblyName>PokemonTCGApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Generations.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Generations.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\XYPromo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>XYPromo.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="PokemonGenerationsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PokemonTCGHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PokemonGenerationsPage.xaml.cs">
+      <DependentUpon>PokemonGenerationsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PokemonTCGHome.xaml.cs">
+      <DependentUpon>PokemonTCGHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Generations.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Generations.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\XYPromo.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>XYPromo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Generations\01_Venasaur_EX_Generations.png" />
+    <Resource Include="Images\Generations\02_M_Venasaur_EX_Generations.png" />
+    <Resource Include="Images\Generations\03_Caterpie_Generations.png" />
+    <Resource Include="Images\Generations\04_Metapod_Generations.png" />
+    <Resource Include="Images\Generations\05_Butterfree_Generations.png" />
+    <Resource Include="Images\Generations\06_Paras_Generations.png" />
+    <Resource Include="Images\Generations\07_Parasect_Generations.png" />
+    <Resource Include="Images\Generations\08_Tangela_Generations.png" />
+    <Resource Include="Images\Generations\09_Pinsir_Generations.png" />
+    <Resource Include="Images\Generations\10_Leafeon_EX_Generations.png" />
+    <Resource Include="Images\Generations\11_Charizard_EX_Generations.png" />
+    <Resource Include="Images\Generations\12_M_Charizard_EX_Generations.png" />
+    <Resource Include="Images\Generations\13_Ninetales_EX_Generations.png" />
+    <Resource Include="Images\Generations\14_Ponyta_Generations.png" />
+    <Resource Include="Images\Generations\15_Rapidash_Generations.png" />
+    <Resource Include="Images\Generations\16_Magmar_Generations.png" />
+    <Resource Include="Images\Generations\17_Blastoise_EX_Generations.png" />
+    <Resource Include="Images\Generations\18_M_Blastoise_EX_Generations.png" />
+    <Resource Include="Images\Generations\19_Shellder_Generations.png" />
+    <Resource Include="Images\Generations\20_Cloyster_Generations.png" />
+    <Resource Include="Images\Generations\21_Krabby_Generations.png" />
+    <Resource Include="Images\Generations\22_Magikarp_Generations.png" />
+    <Resource Include="Images\Generations\23_Gyarados_Generations.png" />
+    <Resource Include="Images\Generations\24_Vaporeon_EX_Generations.png" />
+    <Resource Include="Images\Generations\25_Articuno_Generations.png" />
+    <Resource Include="Images\Generations\26_Pikachu_Generations.png" />
+    <Resource Include="Images\Generations\27_Raichu_Generations.png" />
+    <Resource Include="Images\Generations\28_Jolteon_EX_Generations.png" />
+    <Resource Include="Images\Generations\29_Zapdos_Generations.png" />
+    <Resource Include="Images\Generations\30_Zubat_Generations.png" />
+    <Resource Include="Images\Generations\31_Golbat_Generations.png" />
+    <Resource Include="Images\Generations\32_Slowpoke_Generations.png" />
+    <Resource Include="Images\Generations\33_Gastly_Generations.png" />
+    <Resource Include="Images\Generations\34_Haunter_Generations.png" />
+    <Resource Include="Images\Generations\35_Gengar_Generations.png" />
+    <Resource Include="Images\Generations\36_Jynx_Generations.png" />
+    <Resource Include="Images\Generations\37_Meowstic_EX_Generations.png" />
+    <Resource Include="Images\Generations\38_Diglett_Generations.png" />
+    <Resource Include="Images\Generations\39_Dugtrio_Generations.png" />
+    <Resource Include="Images\Generations\40_Machop_Generations.png" />
+    <Resource Include="Images\Generations\41_Machoke_Generations.png" />
+    <Resource Include="Images\Generations\42_Machamp_Generations.png" />
+    <Resource Include="Images\Generations\43_Geodude_Generations.png" />
+    <Resource Include="Images\Generations\44_Graveler_Generations.png" />
+    <Resource Include="Images\Generations\45_Golem_Generations.png" />
+    <Resource Include="Images\Generations\46_Golem_EX_Generations.png" />
+    <Resource Include="Images\Generations\47_Hitmonlee_Generations.png" />
+    <Resource Include="Images\Generations\48_Hitmonchan_Generations.png" />
+    <Resource Include="Images\Generations\49_Rhyhorn_Generations.png" />
+    <Resource Include="Images\Generations\50_Clefairy_Generations.png" />
+    <Resource Include="Images\Generations\51_Clefable_Generations.png" />
+    <Resource Include="Images\Generations\52_Mr_Mime_Generations.png" />
+    <Resource Include="Images\Generations\53_Meowth_Generations.png" />
+    <Resource Include="Images\Generations\54_Persian_Generations.png" />
+    <Resource Include="Images\Generations\55_Doduo_Generations.png" />
+    <Resource Include="Images\Generations\56_Dodrio_Generations.png" />
+    <Resource Include="Images\Generations\57_Tauros_Generations.png" />
+    <Resource Include="Images\Generations\58_Snorlax_Generations.png" />
+    <Resource Include="Images\Generations\59_Clemont_Generations.png" />
+    <Resource Include="Images\Generations\60_Crushing_Hammer_Generations.png" />
+    <Resource Include="Images\Generations\61_Energy_Switch_Generations.png" />
+    <Resource Include="Images\Generations\62_Evosoda_Generations.png" />
+    <Resource Include="Images\Generations\63_Imakuni_Generations.png" />
+    <Resource Include="Images\Generations\64_Maintenance_Generations.png" />
+    <Resource Include="Images\Generations\65_Max_Revive_Generations.png" />
+    <Resource Include="Images\Generations\66_Olympia_Generations.png" />
+    <Resource Include="Images\Generations\67_Poke_Ball_Generations.png" />
+    <Resource Include="Images\Generations\68_Pokemon_Center_Lady_Generations.png" />
+    <Resource Include="Images\Generations\69_Pokemon_Fan_Club_Generations.png" />
+    <Resource Include="Images\Generations\70_Revitalizer_Generations.png" />
+    <Resource Include="Images\Generations\71_Red_Card_Generations.png" />
+    <Resource Include="Images\Generations\72_Shauna_Generations.png" />
+    <Resource Include="Images\Generations\73_Team_Flare_Grunt_Generations.png" />
+    <Resource Include="Images\Generations\74_Double_Colorless_Energy_Generations.png" />
+    <Resource Include="Images\Generations\75_Basic_Grass_Energy_Generations.png" />
+    <Resource Include="Images\Generations\76_Basic_Fire_Energy_Generations.png" />
+    <Resource Include="Images\Generations\77_Basic_Water_Energy_Generations.png" />
+    <Resource Include="Images\Generations\78_Basic_Electric_Energy_Generations.png" />
+    <Resource Include="Images\Generations\79_Basic_Psychic_Energy_Generations.png" />
+    <Resource Include="Images\Generations\80_Basic_Fighting_Energy_Generations.png" />
+    <Resource Include="Images\Generations\81_Basic_Dark_Energy_Generations.png" />
+    <Resource Include="Images\Generations\82_Basic_Steel_Energy_Generations.png" />
+    <Resource Include="Images\Generations\83_Basic_Fairy_Energy_Generations.png" />
+    <Resource Include="Images\Generations\84_Chikorita_Generations.png" />
+    <Resource Include="Images\Generations\85_Shroomish_Generations.png" />
+    <Resource Include="Images\Generations\86_Charmander_Generations.png" />
+    <Resource Include="Images\Generations\87_Charmeleon_Generations.png" />
+    <Resource Include="Images\Generations\88_Charizard_Generations.png" />
+    <Resource Include="Images\Generations\89_Flareon_EX_Generations.png" />
+    <Resource Include="Images\Generations\90_Snorunt_Generations.png" />
+    <Resource Include="Images\Generations\91_Froslass_Generations.png" />
+    <Resource Include="Images\Generations\92_Raichu_Generations.png" />
+    <Resource Include="Images\Generations\RC10_Dedenne_Generations.png" />
+    <Resource Include="Images\Generations\RC11_Wobbuffett_Generations.png" />
+    <Resource Include="Images\Generations\RC12_Gulpin_Generations.png" />
+    <Resource Include="Images\Generations\RC13_Jirachi_Generations.png" />
+    <Resource Include="Images\Generations\RC14_Espurr_Generations.png" />
+    <Resource Include="Images\Generations\RC15_Meowstic_Generations.png" />
+    <Resource Include="Images\Generations\RC16_Yveltal_Generations.png" />
+    <Resource Include="Images\Generations\RC17_Flabebe_Generations.png" />
+    <Resource Include="Images\Generations\RC18_Floette_Generations.png" />
+    <Resource Include="Images\Generations\RC19_Swirlix_Generations.png" />
+    <Resource Include="Images\Generations\RC20_Slurpuff_Generations.png" />
+    <Resource Include="Images\Generations\RC21_Sylveon_EX_Generations.png" />
+    <Resource Include="Images\Generations\RC22_Diancie_Generations.png" />
+    <Resource Include="Images\Generations\RC23_Swablu_Generations.png" />
+    <Resource Include="Images\Generations\RC24_Altaria_Generations.png" />
+    <Resource Include="Images\Generations\RC25_Fletchling_Generations.png" />
+    <Resource Include="Images\Generations\RC26_Floral_Crown_Generations.png" />
+    <Resource Include="Images\Generations\RC27_Wally_Generations.png" />
+    <Resource Include="Images\Generations\RC28_Flareon_EX_Generations.png" />
+    <Resource Include="Images\Generations\RC29_Pikachu_Generations.png" />
+    <Resource Include="Images\Generations\RC30_Gardevoir_EX_Generations.png" />
+    <Resource Include="Images\Generations\RC31_M_Gardevoir_EX_Generations.png" />
+    <Resource Include="Images\Generations\RC32_Sylveon_EX_Generations.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

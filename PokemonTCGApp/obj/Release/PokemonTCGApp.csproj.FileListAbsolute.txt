@@ -1,0 +1,17 @@
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\bin\Release\PokemonTCGApp.exe.config
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\bin\Release\PokemonTCGApp.exe
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\bin\Release\PokemonTCGApp.pdb
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\MainWindow.g.cs
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonGenerationsPage.g.cs
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGHome.g.cs
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\App.g.cs
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGApp_MarkupCompile.cache
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGApp_MarkupCompile.lref
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\MainWindow.baml
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonGenerationsPage.baml
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGHome.baml
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGApp.g.resources
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGApp.Properties.Resources.resources
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGApp.csproj.GenerateResource.Cache
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGApp.exe
+C:\Users\Francisco\documents\visual studio 2015\Projects\PokemonTCGApp\PokemonTCGApp\obj\Release\PokemonTCGApp.pdb

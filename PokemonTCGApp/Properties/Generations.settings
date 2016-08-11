@@ -1,0 +1,351 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PokemonTCGApp.Properties" GeneratedClassName="Generations">
+  <Profiles />
+  <Settings>
+    <Setting Name="PKMN_0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_13" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_14" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_15" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_16" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_17" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_18" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_19" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_20" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_21" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_22" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_23" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_24" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_25" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_26" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_27" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_28" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_29" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_30" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_31" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_32" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_33" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_34" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_35" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_36" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_37" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_38" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_39" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_40" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_41" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_42" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_43" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_44" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_45" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_46" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_47" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_48" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_49" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_50" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_51" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_52" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_53" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_54" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_55" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_56" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_57" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_58" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_59" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_60" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_61" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_62" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_63" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_64" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_65" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_66" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_67" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_68" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_69" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_70" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_71" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_72" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_73" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_74" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_75" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_76" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_77" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_78" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_79" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_80" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_81" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_82" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_83" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_84" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_85" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_86" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_87" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_88" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_89" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_90" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_91" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_92" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_93" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_94" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_95" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_96" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_97" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_98" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_99" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_100" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_101" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_102" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_103" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_104" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_105" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_106" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_107" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_108" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_109" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_110" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_111" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_112" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_113" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="PKMN_114" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
